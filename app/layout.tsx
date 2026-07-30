@@ -20,7 +20,6 @@ export const metadata: Metadata = {
   title: 'PERFUME-MODE — Unique beauty experience',
   description:
     'Нишевая парфюмерия ручной работы. Ароматы из натуральных ингредиентов, которые подчёркивают вашу индивидуальность и остаются с вами на весь день.',
-  generator: 'v0.app',
   icons: {
     icon: [
       {
