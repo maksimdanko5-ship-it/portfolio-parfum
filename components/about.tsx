@@ -29,7 +29,7 @@ export function About() {
         {/* Image panel */}
         <div className="relative min-h-[420px] overflow-hidden rounded-[2rem] md:min-h-[560px]">
           <Image
-            src="/images/skincare-apply.png"
+            src="/images/skincare-apply.webp"
             alt="Нанесение парфюмированной сыворотки на кожу"
             fill
             sizes="(min-width: 1024px) 50vw, 100vw"

@@ -14,27 +14,27 @@ const products: Product[] = [
     name: "Desert Breeze",
     notes: "Амбра · Кедр · Ветивер",
     price: "₽ 24 490,00",
-    image: "/images/perfume-desert-breeze.png",
+    image: "/images/perfume-desert-breeze.webp",
     tag: "Хит",
   },
   {
     name: "Rose Nuit",
     notes: "Роза · Пион · Мускус",
     price: "₽ 21 900,00",
-    image: "/images/perfume-rose-nuit.png",
+    image: "/images/perfume-rose-nuit.webp",
     tag: "Новинка",
   },
   {
     name: "Amber Oud",
     notes: "Уд · Специи · Ваниль",
     price: "₽ 27 300,00",
-    image: "/images/perfume-amber-oud.png",
+    image: "/images/perfume-amber-oud.webp",
   },
   {
     name: "Blanc Musk",
     notes: "Белый мускус · Ирис · Бергамот",
     price: "₽ 19 500,00",
-    image: "/images/perfume-blanc-musk.png",
+    image: "/images/perfume-blanc-musk.webp",
   },
 ]
 

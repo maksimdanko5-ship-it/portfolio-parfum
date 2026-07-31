@@ -8,7 +8,7 @@ export function Hero() {
         {/* Background portrait */}
         <div className="relative min-h-[640px] w-full md:min-h-[820px]">
           <Image
-            src="/images/hero-portrait.png"
+            src="/images/hero-portrait.webp"
             alt="Портрет девушки со светящейся кожей в тёплом золотистом свете"
             fill
             priority
@@ -18,8 +18,8 @@ export function Hero() {
           <div className="absolute inset-0 bg-gradient-to-t from-foreground/25 via-transparent to-foreground/10" />
 
           {/* Heading */}
-          <div className="absolute left-5 top-8 max-w-2xl md:left-12 md:top-12">
-            <h1 className="text-balance text-5xl font-semibold leading-[0.92] tracking-tight text-card md:text-7xl lg:text-8xl">
+          <div className="absolute left-4 top-6 max-w-2xl sm:left-5 sm:top-8 md:left-12 md:top-12">
+            <h1 className="text-balance text-4xl font-semibold leading-[0.92] tracking-tight text-card sm:text-5xl md:text-7xl lg:text-8xl">
               Unique beauty
               <br />
               <span className="font-serif italic font-normal">experience</span>
@@ -27,7 +27,7 @@ export function Hero() {
           </div>
 
           {/* Intro copy top-right */}
-          <p className="absolute right-5 top-8 max-w-xs text-pretty text-right text-sm leading-relaxed text-card md:right-12 md:top-14 md:text-base">
+          <p className="absolute right-5 top-8 hidden max-w-xs text-pretty text-right text-sm leading-relaxed text-card md:right-12 md:top-14 md:block md:text-base">
             Наша линейка парфюма создана для тех, кто ценит индивидуальность.
             Каждый аромат — это гармония изысканных нот, которые подчеркнут ваш
             стиль и настроение.
@@ -36,14 +36,14 @@ export function Hero() {
           {/* CTA button */}
           <a
             href="#catalog"
-            className="absolute left-5 top-1/2 flex items-center gap-2 rounded-full bg-card/80 px-7 py-4 text-sm font-medium text-foreground backdrop-blur-md transition-colors hover:bg-card md:left-12"
+            className="absolute left-4 top-1/2 flex items-center gap-2 rounded-full bg-card/80 px-5 py-3 text-sm font-medium text-foreground backdrop-blur-md transition-colors hover:bg-card sm:left-5 sm:px-7 sm:py-4 md:left-12"
           >
             Перейти в каталог
             <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
           </a>
 
           {/* Bottom-left natural ingredients copy */}
-          <p className="absolute bottom-8 left-5 max-w-sm text-pretty text-sm leading-relaxed text-card md:bottom-12 md:left-12 md:text-base">
+          <p className="absolute bottom-8 left-5 hidden max-w-sm text-pretty text-sm leading-relaxed text-card md:block md:bottom-12 md:left-12 md:text-base">
             Мы используем только натуральные ингредиенты и передовые технологии,
             чтобы создать парфюм, который остаётся с вами на весь день.
           </p>
@@ -65,7 +65,7 @@ export function Hero() {
 
               <div className="relative hidden h-40 w-28 shrink-0 overflow-hidden rounded-2xl bg-card sm:block">
                 <Image
-                  src="/images/perfume-desert-breeze.png"
+                  src="/images/perfume-desert-breeze.webp"
                   alt="Флакон парфюма Desert Breeze"
                   fill
                   sizes="120px"
@@ -83,7 +83,7 @@ export function Hero() {
               aria-label="Смотреть видео о продукте"
             >
               <Image
-                src="/images/skincare-apply.png"
+                src="/images/skincare-apply.webp"
                 alt="Нанесение сыворотки на кожу"
                 fill
                 sizes="128px"
